@@ -39,9 +39,11 @@
             wx.error(function(error){
                 console.log('on wx error:', error)
             });
+            // AppID: wxfa56e9652b22d520
+            // 环境名称：prod-8g1h6vkz66be54ca
             wx.config({
                 debug: true, // 调试时可开启
-                appId: 'wxe5f52902cf4de896',
+                appId: 'wxfa56e9652b22d520',
                 timestamp: 0, // 必填，填任意数字即可
                 nonceStr: 'nonceStr', // 必填，填任意非空字符串即可
                 signature: 'signature', // 必填，填任意非空字符串即可
